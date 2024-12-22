@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : Philippon
+- PRÉNOM : Melvyn 
+- GROUPE : C1
 - URL du site :
-- URL FIGMA :
+- URL FIGMA :https://www.figma.com/design/UO9xePozZAoLzj2WFRsMPs/PROJET-MAQUETTE?node-id=1-29&p=f&t=tAT7ysnxftd9K7mK-0
