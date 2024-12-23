@@ -54,3 +54,89 @@
             loading="lazy">
         <script src="../src/js/menu.js" defer></script>
     </header>
+
+    <main class="main-content">
+        <h1 class="title">Contact</h1>
+        <br>
+        <div class="p1_contact">
+        <p class="texte">Nous sommes là pour répondre à toutes vos questions ou vous aider dans vos démarches. Remplissez simplement le
+        formulaire ci-dessous, ou utilisez l’un des autres moyens de contact fournis.</p>
+
+        <section class="formulaire">
+            <h3 class="soustitre">Formulaire</h3>
+            <form class="formulaire_form">
+                <label for="nom" class="form_label">Nom</label>
+                <input type="text" id="nom" name="nom" class="form_input">
+        
+                <label for="prenom" class="form_label">Prénom</label>
+                <input type="text" id="prenom" name="prenom" class="form_input">
+        
+                <label for="adresses" class="form_label">Adresses</label>
+                <input type="text" id="adresses" name="adresses" class="form_input">
+        
+                <button type="submit" class="form_button">Envoyer</button>
+            </form>
+        
+            <form action="submit_comment.php" method="POST" class="comment-section">
+                <textarea name="comment" placeholder="Écrivez votre commentaire ici..."
+                    class="comment-section_textarea"></textarea>
+                <button type="submit" class="form_button">Envoyer</button>
+            </form>
+        </section>
+        
+        <section class="main-content_contact-info">
+            <h3 class="main-content_soustitre">Coordonnées</h3>
+            <p class="main-content_contact-details">Adresse 123 Rue de l'Innovation,75000 Paris</p>
+            <p class="main-content_contact-details">Téléphone +33 1 23 45 67 89</p>
+            <p class="main-content_contact-details">Email melvyn.philippon@Levignis.com</p>
+        </section>
+        
+        <section class="main-content_comment-section">
+            <h2 class="main-content_comment-title">Commentaire</h2>
+            <p class="main-content_comment-description">Votre avis nous intéresse alors participez !</p>
+            <form action="submit_comment.php" method="POST" class="comment-section">
+                <textarea name="comment" placeholder="Écrivez votre commentaire ici..."
+                    class="comment-section_textarea"></textarea>
+                <button type="submit" class="form_button">Envoyer</button>
+            </form>
+        </section>
+        </main>
+
+        <footer class="footer">
+            <div class="img_footer">
+                <img src="../assets/img/Fond avant footer.webp" alt="image de pieds de page" class="image_footer"
+                    loading="lazy">
+            </div>
+            <a href="index.html" class="footer_logo-link">
+                <img src="../assets/img/logo.webp" alt="image du logo du site" class="footer_logo" loading="lazy">
+            </a>
+        
+            <h2 class="footer_titre">LEVIGNIS</h2>
+        
+            <h3 class="footer_soustitre">Ressources</h3>
+        
+            <p class="footer_texte"> Adresse 123 Rue de l'Innovation, 75000 Paris, France</p>
+            <p class="footer_texte">Téléphone +33 1 23 45 67 89 </p>
+            <p class="footer_texte">LEVIGNIS@ogglo-montbeliard.fr </p>
+            <p class="footer_texte">© 2025 LEVIGNIS</p>
+        
+            <h3 class="footer_soustitre">NOUS SUIVRE</h3>
+        
+            <img src="../assets/img/facebook 1.webp" alt="il s'agit du logo de Facebook" class="footer_social-logo"
+                loading="lazy">
+            <img src="../assets/img/instagram 1.webp" alt="il s'agit du logo d'instagram" class="footer_social-logo"
+                loading="lazy">
+            <img src="../assets/img/X (twitter).webp" alt="il s'agit du logo de X" class="footer_social-logo" loading="lazy">
+            <img src="../assets/img/youtube 1.webp" alt="il s'agit du logo de youtube" class="footer_social-logo"
+                loading="lazy">
+            <img src="../assets/img/discord.webp" alt="il s'agit du logo de discord" class="footer_social-logo" loading="lazy">
+            <br>
+            <img src="../assets/img/logo mmi.webp" alt="il s'agit du logo du but MMI" class="footer_logoMMI" loading="lazy">
+            <p class="footer_texte">projet réalisé en 2024 dans le cadre d’un exercice pédagogique au
+                <a href="https://blogdummi.fr/" target="_blank" rel="noopener noreferrer">département MMi de Montbéliard</a>
+            </p>
+        </footer>
+        
+        </body>
+        
+        </html>
