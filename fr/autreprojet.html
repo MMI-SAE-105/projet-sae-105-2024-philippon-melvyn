@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -12,45 +12,222 @@
 
 <body>
     <header class="header">
-        <div class="bande-header">
-            <a href="index.html" class="header__logo-link">
-                <img src="../assets/img/logo.webp" alt="image du logo du site" class="header_logo" loading="lazy">
-            </a>
-            <h2 class="header_name">LEVIGNIS</h2>
-            <a href="index.html" class="header__logo-linkfr">
-                <img src="../assets/img/FRANCAIS.webp" alt="image de la rubrique pour changer de langue"
-                    class="header_logofr" loading="lazy">
-            </a>
-            <menu class="header_menu">
-                <div class="menu-container">
-                    <button class="menu-toggle" aria-expanded="false" aria-controls="menu">☰</button>
-                    <nav id="menu" class="menu">
-                        <button class="menu-close" aria-label="Fermer le menu">✖</button>
-                        <ul class="header_menu-list">
-                            <li class="header_menu-item"><a href="livre.html" class="header_menu-link">Livre</a></li>
-                            <li class="header_menu-item"><a href="film.html" class="header_menu-link">Film</a></li>
-                            <li class="header_menu-item"><a href="galerie.html" class="header_menu-link">Galerie</a>
-                            </li>
-                            <li class="header_menu-item"><a href="auteur.html" class="header_menu-link">Biographie</a>
-                            </li>
-                            <li class="header_menu-item"><a href="contact.html" class="header_menu-link">Contact</a>
-                            </li>
-                            <li class="header_menu-item"><a href="chanson.html" class="header_menu-link">Chanson</a>
-                            </li>
-                            <li class="header_menu-item"><a href="autreprojet.html"
-                                    class="header_menu-link">Partenaire</a></li>
-                            <li class="header_menu-item"><a href="apropos.html" class="header_menu-link">Information</a>
-                            </li>
-                            <li class="header_menu-item"><a href="glossaire.html" class="header_menu-link">Glossaire</a>
-                            </li>
-                            <li class="header_menu-item"><a href="chronologie.html"
-                                    class="header_menu-link">Histoire</a></li>
-                        </ul>
-                    </nav>
-                </div>
-        </div>
+    <div class="bande-header">
+        <a href="index.html" class="header__logo-link" aria-label="Retour à la page d'accueil">
+            <img src="../assets/img/logo.webp" alt="Logo de LEVIGNIS" class="header_logo" loading="lazy">
+        </a>
+        <h2 class="header_name">LEVIGNIS</h2>
+        <a href="/en/partner.html" class="header__logo-linkfr" aria-label="Changer la langue en Anglais">
+            <img src="../assets/img/FRANCAIS.webp" alt="Changer la langue en français" class="header_logofr" loading="lazy">
+        </a>
+        <menu class="header_menu">
+            <div class="menu-container">
+                <button class="menu-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+                <nav id="menu" class="menu" aria-label="Navigation principale">
+                    <button class="menu-close" aria-label="Fermer le menu">✖</button>
+                    <ul class="header_menu-list">
+                        <li class="header_menu-item"><a href="livre.html" class="header_menu-link">Livre</a></li>
+                        <li class="header_menu-item"><a href="film.html" class="header_menu-link">Film</a></li>
+                        <li class="header_menu-item"><a href="galerie.html" class="header_menu-link">Galerie</a>
+                        </li>
+                        <li class="header_menu-item"><a href="auteur.html" class="header_menu-link">Biographie</a>
+                        </li>
+                        <li class="header_menu-item"><a href="contact.html" class="header_menu-link">Contact</a>
+                        </li>
+                        <li class="header_menu-item"><a href="chanson.html" class="header_menu-link">Chanson</a>
+                        </li>
+                        <li class="header_menu-item"><a href="autreprojet.html" class="header_menu-link">Partenaire</a></li>
+                        <li class="header_menu-item"><a href="apropos.html" class="header_menu-link">Information</a>
+                        </li>
+                        <li class="header_menu-item"><a href="glossaire.html" class="header_menu-link">Glossaire</a>
+                        </li>
+                        <li class="header_menu-item"><a href="chronologie.html" class="header_menu-link">Histoire</a></li>
+                    </ul>
+                </nav>
+            </div>
         </menu>
-        <img src="../assets/img/Fond toute page.webp" alt="Affiche de la page d'Accueil" class="header_image "
+    </div>
+        <img src="../assets/img/Fond toute page.webp" alt="Affiche de la page partenaire " class="header_image "
             loading="lazy">
         <script src="../src/js/menu.js" defer></script>
     </header>
+
+    <main class="main-content">
+        <h1 class="title">Partenaire</h1>
+        <div class="p1_autreprojet">
+
+            <section class="rubriquepartenaire">
+                <img src="../assets/img/Sonic relics logo.webp" alt="logo du site partenaire sonic Relics" class="image_logopartenaire" loading="lazy">
+                <h3 class="soustitre">Sonic Relics</h3>
+                <p class="texte">Créateur : Deniz Ozer</p>
+                <br>
+                <a href="https://www.figma.com/proto/B4Dg84ePImNZ8iYebAiSFK/Untitled?node-id=20-20&node-type=canvas&t=AMUIIXhysfOHJ7mL-1&scaling=scale-down&content-scaling=fixed&page-id=16%3A18&starting-point-node-id=20%3A20&show-proto-sidebar=1" target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="button">Plus d'infos</button>
+                </a>
+            </section>
+
+            <section class="rubriquepartenaire">
+                <img src="../assets/img/Rebirth.webp" alt="logo du site partenaire Rebirth" class="image_logopartenaire" loading="lazy">
+                <h3 class="soustitre">Rebirth</h3>
+                <p class="texte">Créateur : Bryan Menoux</p>
+                <br>
+                <a href="https://www.figma.com/proto/aIIAD2mymqHYoOHrUCcuox/MENOUX_Bryan_Projet_S1_MM1_C1_23-OCT-2024?node-id=53-71&t=aBOO25LVL55tzdFS-1" target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="button">Plus d'infos</button>
+                </a>
+            </section>
+
+            <section class="rubriquepartenaire">
+                <img src="../assets/img/Pub neo retro.webp" alt="logo du site pub neo retro" class="image_logopartenaire" loading="lazy">
+                <h3 class="soustitre">Pub Neo Retro</h3>
+                <p class="texte">Créateur : Camille Norrito</p>
+                <br>
+                <a href="https://www.figma.com/proto/CL2etQos9OGmyMe9MqP3ub/Maquette-Pr%C3%A9histoire-du-Futur?node-id=423-879&node-type=canvas&t=9ZPVfVUE9KFAB8qi-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=423%3A879"
+                    target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="button">Plus d'infos</button>
+                </a>
+            </section>
+
+            <section class="rubriquepartenaire">
+                <img src="../assets/img/Nextwear.webp" alt="logo du site nextwear" class="image_logopartenaire"
+                    loading="lazy">
+                <h3 class="soustitre">Nextwear</h3>
+                <p class="texte">Créateur : Lison Pruvost</p>
+                <br>
+                <a href="https://www.figma.com/proto/Kby1aPdvYH8VfqbQFqiojr/Maquettes-projet-individuel-%E2%80%94-lison-PRUVOST?node-id=54-6&node-type=canvas&t=mx6SkA7JzpjvuBZs-0&scaling=scale-down&content-scaling=fixed&page-id=47%3A4&starting-point-node-id=54%3A6"
+                    target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="button">Plus d'infos</button>
+                </a>
+            </section>
+
+            <section class="rubriquepartenaire">
+                <img src="../assets/img/Holovisio.webp" alt="logo du site holovisio" class="image_logopartenaire" loading="lazy">
+                <h3 class="soustitre">Holovisio</h3>
+                <p class="texte">Créateur : Ethan Omasta Parisot</p>
+                <br>
+                <a href="https://www.figma.com/design/d2iI0AzhGSR9VptQEgOxSX/Projet-Pr%C3%A9histoire-du-futur-Omasta-Parisot-Ethan-Ojet-T%C3%A9l%C3%A9vision-du-futur?node-id=82-804&t=Jl9Gp4zUAUrXB86n-1"
+                    target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="button">Plus d'infos</button>
+                </a>
+            </section>
+
+            <section class="rubriquepartenaire">
+                <img src="../assets/img/Robopture.webp" alt="logo du site robopture" class="image_logopartenaire" loading="lazy">
+                <h3 class="soustitre">Robopture</h3>
+                <p class="texte">Créateur : Alex Ringenbach</p>
+                <br>
+                <a href="https://www.figma.com/proto/TnmC6wbrp9yDpJZkVvvlGb/Untitled?node-id=1-4&node-type=frame&t=WRoi7jkcLYYOvpNH-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1"
+                    target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="button">Plus d'infos</button>
+                </a>
+            </section>
+
+            <section class="rubriquepartenaire">
+                <img src="../assets/img/Greendouche.webp" alt="logo du site greendouche" class="image_logopartenaire" loading="lazy">
+                <h3 class="soustitre">Greendouche</h3>
+                <p class="texte">Créateur : Maéna Rabusseau</p>
+                <br>
+                <a href="https://www.figma.com/proto/rFGh0Cm4VQX1LDlfnXfuDm/Maquettes-projet-individuel-%E2%80%94-Ma%C3%A9na-RABUSSEAU-(Copy)?node-id=3709-207&node-type=frame&t=5RpDFCZDFHWVvm6D-1&scaling=scale-down&content-scaling=fixed&page-id=3701%3A114&starting-point-node-id=3708%3A157"
+                    target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="button">Plus d'infos</button>
+                </a>
+            </section>
+
+            <section class="rubriquepartenaire">
+                <img src="../assets/img/cosmonova.webp" alt="logo du site cosmonova" class="image_logopartenaire"
+                    loading="lazy">
+                <h3 class="soustitre">Cosmonova</h3>
+                <p class="texte">Créateur : Max Prin</p>
+                <br>
+                <a href="https://www.figma.com/proto/kTIDznmRP8HbG3Q5hykYDg/Maquette?node-id=23-1484&node-type=canvas&t=17ElFkX1WpSWmLnH-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=23%3A1491"
+                    target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="button">Plus d'infos</button>
+                </a>
+            </section>
+
+            <section class="rubriquepartenaire">
+                <img src="../assets/img/Chronoride.webp" alt="logo du site Chronoride" class="image_logopartenaire" loading="lazy">
+                <h3 class="soustitre">Chronoride</h3>
+                <p class="texte">Créateur : Dorian Fernandez Cerqeira</p>
+                <br>
+                <a href="https://www.figma.com/proto/OmSrBmPx9tWJXZbUB1lpy3/ChronoRide?page-id=20%3A967&node-id=48-466&node-type=frame&viewport=399%2C471%2C0.68&t=eGfJTpRLGbr7GXmb-1&scaling=scale-down&content-scaling=fixed"
+                    target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="button">Plus d'infos</button>
+                </a>
+            </section>
+
+            <section class="rubriquepartenaire">
+                <img src="../assets/img/prephonos.webp" alt="logo du site prephonos" class="image_logopartenaire" loading="lazy">
+                <h3 class="soustitre">Prephonos</h3>
+                <p class="texte">Créateur : Pierre Mouilleseaux</p>
+                <br>
+                <a href="https://www.figma.com/proto/J1JsOVZ6HxUDJRtiBKA32v/projet?node-id=3-7&node-type=canvas&t=OuJGVHuM9q0LuxHC-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1"
+                    target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="button">Plus d'infos</button>
+                </a>
+            </section>
+
+            <section class="rubriquepartenaire">
+                <img src="../assets/img/Boardbeyond.webp" alt="logo du site Boardbeyond" class="image_logopartenaire" loading="lazy">
+                <h3 class="soustitre">Boardbeyond</h3>
+                <p class="texte">Créateur : Lucas Ielsch</p>
+                <br>
+                <a href="https://www.figma.com/design/sVr6zWEhD3h08uMwe97rqL/Maquette-projet?node-id=2-355&t=wrOptqtRqnhd7Xza-1"
+                    target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="button">Plus d'infos</button>
+                </a>
+            </section>
+
+            <section class="rubriquepartenaire">
+                <img src="../assets/img/Echos du futur.webp" alt="logo du site echos du futur" class="image_logopartenaire"
+                    loading="lazy">
+                <h3 class="soustitre">Echos du futur</h3>
+                <p class="texte">Créateur : Ethan Schwartzentruber</p>
+                <br>
+                <a href="https://www.figma.com/proto/uvFhZQJNo8Nk91d9zKdlaI/Projet?node-id=57-460&t=b30NrSoBcsSzlVWn-1"
+                    target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="button">Plus d'infos</button>
+                </a>
+            </section>
+        </div>
+
+
+        </main>
+        
+    <footer class="footer">
+        <div class="img_footer">
+            <img src="../assets/img/Fond avant footer.webp" alt="image de pieds de page" class="image_footer"
+                loading="lazy">
+        </div>
+        <a href="index.html" class="footer_logo-link">
+            <img src="../assets/img/logo.webp" alt="image du logo du site" class="footer_logo" loading="lazy">
+        </a>
+    
+        <h2 class="footer_titre">LEVIGNIS</h2>
+    
+        <h3 class="footer_soustitre">Ressources</h3>
+    
+        <p class="footer_texte"> Adresse 123 Rue de l'Innovation, 75000 Paris, France</p>
+        <p class="footer_texte">Téléphone +33 1 23 45 67 89 </p>
+        <p class="footer_texte">LEVIGNIS@ogglo-montbeliard.fr </p>
+        <p class="footer_texte">© 2025 LEVIGNIS</p>
+    
+        <h3 class="footer_soustitre">NOUS SUIVRE</h3>
+    
+        <img src="../assets/img/facebook 1.webp" alt="il s'agit du logo de Facebook" class="footer_social-logo"
+            loading="lazy">
+        <img src="../assets/img/instagram 1.webp" alt="il s'agit du logo d'instagram" class="footer_social-logo"
+            loading="lazy">
+        <img src="../assets/img/X (twitter).webp" alt="il s'agit du logo de X" class="footer_social-logo" loading="lazy">
+        <img src="../assets/img/youtube 1.webp" alt="il s'agit du logo de youtube" class="footer_social-logo"
+            loading="lazy">
+        <img src="../assets/img/discord.webp" alt="il s'agit du logo de discord" class="footer_social-logo" loading="lazy">
+        <br>
+        <img src="../assets/img/logo mmi.webp" alt="il s'agit du logo du but MMI" class="footer_logoMMI" loading="lazy">
+        <p class="footer_texte">projet réalisé en 2024 dans le cadre d’un exercice pédagogique au
+            <a href="https://blogdummi.fr/" target="_blank" rel="noopener noreferrer">département MMi de Montbéliard</a>
+        </p>
+    </footer>
+    
+    </body>
+    
+    </html>

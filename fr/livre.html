@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -7,83 +7,90 @@
     <title>LEVIGNIS - Livre</title>
     <link rel="stylesheet" href="../src/css/style.css">
     <link rel="shortcut icon" type="image/webp" href="../assets/img/logo.webp" />
-
 </head>
 
 <body>
     <header class="header">
         <div class="bande-header">
-            <a href="index.html" class="header__logo-link">
-                <img src="../assets/img/logo.webp" alt="image du logo du site" class="header_logo" loading="lazy">
+            <a href="index.html" class="header__logo-link" aria-label="Retour à la page d'accueil">
+                <img src="../assets/img/logo.webp" alt="Logo de LEVIGNIS" class="header_logo" loading="lazy">
             </a>
             <h2 class="header_name">LEVIGNIS</h2>
-            <a href="index.html" class="header__logo-linkfr">
-                <img src="../assets/img/FRANCAIS.webp" alt="image de la rubrique pour changer de langue"
-                    class="header_logofr" loading="lazy">
+            <a href="/en/book.html" class="header__logo-linkfr" aria-label="Changer la langue en Anglais">
+                <img src="../assets/img/FRANCAIS.webp" alt="Changer la langue en français" class="header_logofr" loading="lazy">
             </a>
             <menu class="header_menu">
                 <div class="menu-container">
                     <button class="menu-toggle" aria-expanded="false" aria-controls="menu">☰</button>
-                    <nav id="menu" class="menu">
+                    <nav id="menu" class="menu" aria-label="Navigation principale">
                         <button class="menu-close" aria-label="Fermer le menu">✖</button>
                         <ul class="header_menu-list">
                             <li class="header_menu-item"><a href="livre.html" class="header_menu-link">Livre</a></li>
                             <li class="header_menu-item"><a href="film.html" class="header_menu-link">Film</a></li>
-                            <li class="header_menu-item"><a href="galerie.html" class="header_menu-link">Galerie</a></li>
-                            <li class="header_menu-item"><a href="auteur.html" class="header_menu-link">Biographie</a></li>
-                            <li class="header_menu-item"><a href="contact.html" class="header_menu-link">Contact</a></li>
-                            <li class="header_menu-item"><a href="chanson.html" class="header_menu-link">Chanson</a></li>
+                            <li class="header_menu-item"><a href="galerie.html" class="header_menu-link">Galerie</a>
+                            </li>
+                            <li class="header_menu-item"><a href="auteur.html" class="header_menu-link">Biographie</a>
+                            </li>
+                            <li class="header_menu-item"><a href="contact.html" class="header_menu-link">Contact</a>
+                            </li>
+                            <li class="header_menu-item"><a href="chanson.html" class="header_menu-link">Chanson</a>
+                            </li>
                             <li class="header_menu-item"><a href="autreprojet.html" class="header_menu-link">Partenaire</a></li>
-                            <li class="header_menu-item"><a href="apropos.html" class="header_menu-link">Information</a></li>
-                            <li class="header_menu-item"><a href="glossaire.html" class="header_menu-link">Glossaire</a></li>
+                            <li class="header_menu-item"><a href="apropos.html" class="header_menu-link">Information</a>
+                            </li>
+                            <li class="header_menu-item"><a href="glossaire.html" class="header_menu-link">Glossaire</a>
+                            </li>
                             <li class="header_menu-item"><a href="chronologie.html" class="header_menu-link">Histoire</a></li>
                         </ul>
                     </nav>
                 </div>
+            </menu>
         </div>
-        </menu>
-        <img src="../assets/img/LIVRE header.webp" alt="Affiche de la page d'Accueil" class="header_image "
+        <img src="../assets/img/LIVRE header.webp" alt="Affiche de la page livre" class="header_image"
             loading="lazy">
         <script src="../src/js/menu.js" defer></script>
     </header>
 
-<main class="main-content">
-    <h1 class="title">Retour de flamme</h1>
-    <br>
-    <p class="texte">Le livre Retour de flamme : la saga d'un briquet de Linda Perrat, publié en 2011, raconte de manière originale et
-    humoristique l'histoire d'un objet du quotidien : le briquet.</p>
-    <br>
-    <p class="texte">Dans ce récit, le briquet est personnifié et possède des caractéristiques humaines, comme l'intelligence et la
-    bienveillance.</p>
-    <br>
+    <main class="main-content">
+        <h1 class="title">Retour de flamme</h1>
+        <section aria-labelledby="section-intro">
+            <h2 id="section-intro" class="sr-only">Introduction</h2>
+            <p class="texte">Le livre Retour de flamme : la saga d'un briquet de Linda Perrat, publié en 2011, raconte
+                de manière originale et humoristique l'histoire d'un objet du quotidien : le briquet.</p>
+            <p class="texte">Dans ce récit, le briquet est personnifié et possède des caractéristiques humaines, comme
+                l'intelligence et la bienveillance.</p>
+            <p class="texte">Il devient ainsi un personnage central, fin psychologue et observateur des interactions
+                humaines, naviguant à travers les époques avec un regard perspicace et spirituel.</p>
+        </section>
 
-<p class="texte">Il devient ainsi un personnage central, fin psychologue et observateur des interactions humaines, naviguant à travers
-les époques avec un regard perspicace et spirituel.</p>
+        <img src="../assets/img/Retour de flamme le livre.webp" alt="Couverture du livre Retour de flamme"
+            class="image_livre" loading="lazy">
 
-<img src="../assets/img/Retour de flamme le livre.webp" alt="Affiche de la couverture du livre" class="image_livre" loading="lazy">
+        <section class="synopsis" aria-labelledby="section-synopsis">
+            <h2 id="section-synopsis" class="soustitre">Synopsis</h2>
+            <p class="texte">À travers cette saga, le briquet "Flamme" explore les diverses situations dans lesquelles
+                il se trouve impliqué, tout en évoluant aux côtés des humains.</p>
+            <p class="texte">L’auteure joue avec la temporalité, mêlant une histoire fictive à une réflexion sur
+                l’évolution de cet objet, autrefois omniprésent, mais devenu désuet avec le temps.</p>
+            <p class="texte">Cette approche unique permet de donner vie à un simple briquet, tout en réfléchissant sur
+                l'impact des objets de tous les jours sur la vie humaine et sur la disparition de certains d'entre eux
+                au fil du temps. Ce roman original propose un mélange de fantaisie et de nostalgie, explorant la
+                signification des objets dans nos vies et comment ceux-ci influencent notre histoire collective, même
+                lorsqu'ils ne sont plus en usage.</p>
+        </section>
 
-<div class="synopsis">
-    <h3 class="soustitre">synopsis</h3>
-    <p class="texte">À travers cette saga, le briquet "Flamme" explore les diverses situations dans lesquelles il se trouve impliqué, tout en
-    évoluant aux côtés des humains.</p>
-    <br>
-    <p class="texte">L’auteure joue avec la temporalité, mêlant une histoire fictive à une réflexion sur l’évolution de cet objet, autrefois
-    omniprésent, mais devenu désuet avec le temps.</p>
-    <br>
-    <p class="texte">Cette approche unique permet de donner vie à un simple briquet, tout en réfléchissant sur l'impact des objets de tous
-    les jours sur la vie humaine et sur la disparition de certains d'entre eux au fil du temps.Ce roman original propose un mélange de fantaisie et de nostalgie, explorant la signification des objets dans nos vies
-    et comment ceux-ci influencent notre histoire collective, même lorsqu'ils ne sont plus en usage.</p>
-</div>
-<div class="p2_livre">
-    <h3 class="soustitre">Lindat Perrat</h3>
-    <p class="texte">Linda Perrat est une auteure française connue pour son approche originale et pleine d'humour de la narration.</p>
-    <br>
-    <p class="texte">Elle s'intéresse particulièrement à des objets du quotidien qu'elle dote de personnalité et de caractère.</p>
-    <img src="../assets/img/Lindat Perrat.webp" alt="image de L'autrice du film retour de flamme" class="image_livre_p2" loading="lazy">
-    <p class="texte">Perrat utilise l'humour et la fantaisie pour explorer des thèmes plus profonds, tels que la mémoire collective et la
-    disparition des objets anciens dans nos vies.</p>
-</div>
-</main>
+        <section class="p2_livre" aria-labelledby="section-author">
+            <h2 id="section-author" class="soustitre">Linda Perrat</h2>
+            <p class="texte">Linda Perrat est une auteure française connue pour son approche originale et pleine
+                d'humour de la narration.</p>
+            <p class="texte">Elle s'intéresse particulièrement à des objets du quotidien qu'elle dote de personnalité et
+                de caractère.</p>
+            <img src="../assets/img/Lindat Perrat.webp" alt="Photo de Linda Perrat, l'auteure du livre Retour de flamme"
+                class="image_livre_p2" loading="lazy">
+            <p class="texte">Perrat utilise l'humour et la fantaisie pour explorer des thèmes plus profonds, tels que la
+                mémoire collective et la disparition des objets anciens dans nos vies.</p>
+        </section>
+    </main>
 
 <footer class="footer">
     <div class="img_footer">

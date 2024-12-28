@@ -1,130 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Bienvenue sur le site de LEVIGNIS. Découvrez l'histoire du briquet et bien plus encore.">
+    <meta name="author" content="LEVIGNIS">
     <title>LEVIGNIS - Accueil</title>
     <link rel="stylesheet" href="../src/css/style.css">
     <link rel="shortcut icon" type="image/webp" href="../assets/img/logo.webp" />
-    
 </head>
 
 <body>
     <header class="header">
         <div class="bande-header">
-            <a href="index.html" class="header__logo-link">
-                <img src="../assets/img/logo.webp" alt="image du logo du site" class="header_logo" loading="lazy">
+            <a href="index.html" class="header__logo-link" aria-label="Retour à la page d'accueil">
+                <img src="../assets/img/logo.webp" alt="Logo de LEVIGNIS" class="header_logo" loading="lazy">
             </a>
             <h2 class="header_name">LEVIGNIS</h2>
-            <a href="index.html" class="header__logo-linkfr">
-                <img src="../assets/img/FRANCAIS.webp" alt="image de la rubrique pour changer de langue" class="header_logofr" loading="lazy">
+            <a href="/en/index.html" class="header__logo-linkfr" aria-label="Changer la langue en Anglais">
+                <img src="../assets/img/FRANCAIS.webp" alt="Changer la langue en français" class="header_logofr"
+                    loading="lazy">
             </a>
             <menu class="header_menu">
                 <div class="menu-container">
                     <button class="menu-toggle" aria-expanded="false" aria-controls="menu">☰</button>
-                    <nav id="menu" class="menu">
+                    <nav id="menu" class="menu" aria-label="Navigation principale">
                         <button class="menu-close" aria-label="Fermer le menu">✖</button>
                         <ul class="header_menu-list">
                             <li class="header_menu-item"><a href="livre.html" class="header_menu-link">Livre</a></li>
                             <li class="header_menu-item"><a href="film.html" class="header_menu-link">Film</a></li>
-                            <li class="header_menu-item"><a href="galerie.html" class="header_menu-link">Galerie</a></li>
-                            <li class="header_menu-item"><a href="auteur.html" class="header_menu-link">Biographie</a></li>
-                            <li class="header_menu-item"><a href="contact.html" class="header_menu-link">Contact</a></li>
-                            <li class="header_menu-item"><a href="chanson.html" class="header_menu-link">Chanson</a></li>
-                            <li class="header_menu-item"><a href="autreprojet.html" class="header_menu-link">Partenaire</a></li>
-                            <li class="header_menu-item"><a href="apropos.html" class="header_menu-link">Information</a></li>
-                            <li class="header_menu-item"><a href="glossaire.html" class="header_menu-link">Glossaire</a></li>
-                            <li class="header_menu-item"><a href="chronologie.html" class="header_menu-link">Histoire</a></li>
+                            <li class="header_menu-item"><a href="galerie.html" class="header_menu-link">Galerie</a>
+                            </li>
+                            <li class="header_menu-item"><a href="auteur.html" class="header_menu-link">Biographie</a>
+                            </li>
+                            <li class="header_menu-item"><a href="contact.html" class="header_menu-link">Contact</a>
+                            </li>
+                            <li class="header_menu-item"><a href="chanson.html" class="header_menu-link">Chanson</a>
+                            </li>
+                            <li class="header_menu-item"><a href="autreprojet.html"
+                                    class="header_menu-link">Partenaire</a></li>
+                            <li class="header_menu-item"><a href="apropos.html" class="header_menu-link">Information</a>
+                            </li>
+                            <li class="header_menu-item"><a href="glossaire.html" class="header_menu-link">Glossaire</a>
+                            </li>
+                            <li class="header_menu-item"><a href="chronologie.html"
+                                    class="header_menu-link">Histoire</a></li>
                         </ul>
                     </nav>
+                    
                 </div>
+
+            </menu>
         </div>
-        </menu>
-        <img src="../assets/img/Fond accueil.webp" alt="Affiche de la page d'Accueil" class="header_image " loading="lazy">
+        <img src="../assets/img/Fond accueil.webp" alt="Affiche de la page d'Accueil" class="header_image"
+            loading="lazy">
         <script src="../src/js/menu.js" defer></script>
-    </header> 
+    </header>
 
     <main class="main-content">
-        <h1 class="title">La Decouverte Du Briquet</h1>
-<div class="p1">
-<section class="image decalé">
-    <p class="texte">Un briquet est un petit appareil portatif utilisé pour créer une flamme.</p>
-    <p class="texte">Il sert principalement à allumer des objets inflammables comme des bougies, des feux de camp, des cigarettes, ou des
-    poêles à gaz.</p>
-    <p class="texte">Le briquet fonctionne généralement en produisant une étincelle qui enflamme un combustible stocké à l’intérieur.</p>
+        <h1 class="title">La Découverte Du Briquet</h1>
+        <section class="p1">
+            <article class="image decalé">
+                <p class="texte">Un briquet est un petit appareil portatif utilisé pour créer une flamme.</p>
+                <p class="texte">Il sert principalement à allumer des objets inflammables comme des bougies, des feux de
+                    camp, des cigarettes, ou des poêles à gaz.</p>
+                <p class="texte">Le briquet fonctionne généralement en produisant une étincelle qui enflamme un
+                    combustible stocké à l’intérieur.</p>
+                <img src="../assets/img/briquet accueil.webp" alt="Représentation d'un briquet" class="image"
+                    loading="lazy">
+            </article>
+            <p class="texte">Un mécanisme, souvent une molette en métal frottée contre une pierre spéciale appelée
+                "pierre à briquet", génère une étincelle. Lorsque cette étincelle entre en contact avec le gaz qui
+                s’échappe du réservoir, une flamme apparaît, que l’utilisateur peut contrôler.</p>
+        </section>
 
-    <img src="../assets/img/briquet accueil.webp" alt="representation d'un briquet" class="image" loading="lazy">
-</section>
-<p class="texte">Un mécanisme, souvent une molette en métal frottée contre une pierre spéciale appelée "pierre à briquet", génère une
-étincelle. Lorsque cette étincelle entre en contact avec le gaz qui s’échappe du réservoir, une flamme apparaît, que
-l’utilisateur peut contrôler.</p>
+        <section class="p2">
+            <h3 class="soustitre">L’Ancêtre Du Briquet</h3>
+            <p class="texte">Les briquets étaient très populaires avant l'avènement des allume-feux électroniques et
+                d’autres technologies modernes. Ils étaient fabriqués en différents matériaux, comme le métal ou le
+                plastique, et pouvaient être réutilisables ou jetables.</p>
+            <p class="texte">Certains briquets étaient aussi rechargeables, permettant de remplacer le combustible une
+                fois épuisé. L’objet était non seulement utilitaire, mais aussi parfois un symbole de style, avec des
+                designs sophistiqués ou gravés.</p>
+            <p class="texte">Avant les briquets, les gens utilisaient des méthodes plus rudimentaires pour allumer un
+                feu, comme frotter des pierres ensemble pour produire des étincelles.</p>
+            <p class="texte">Le briquet a grandement facilité la capacité d'allumer un feu instantanément, rendant
+                l'accès à la flamme plus rapide, pratique et transportable.</p>
 
-<h3 class="soustitre">L’ANCETRE DU BRIQUET</h3>
-<p class="texte">Les briquets étaient très populaires avant l'avènement des allume-feux électroniques et d’autres technologies modernes.
-Ils étaient fabriqués en différents matériaux, comme le métal ou le plastique, et pouvaient être réutilisables ou
-jetables.</p>
-<br>
-<p class="texte">Certains briquets étaient aussi rechargeables, permettant de remplacer le combustible une fois épuisé. L’objet était non
-seulement utilitaire, mais aussi parfois un symbole de style, avec des designs sophistiqués ou gravés.</p>
-<br>
-<P class="texte">Avant les briquets, les gens utilisaient des méthodes plus rudimentaires pour allumer un feu, comme frotter des pierres
-ensemble pour produire des étincelles.</P>
-<br>
-<p class="texte">Le briquet a grandement facilité la capacité d'allumer un feu instantanément, rendant l'accès à la flamme plus rapide,
-pratique et transportable.</p>
-</div>
-<div class="p2">
-<h3 class="soustitre">RETOUR VERS LE FUTUR BRIQUET</h3>
-<p class="texte">Des archéologues ont découvert un objet mystérieux lors de fouilles sur une ancienne terre habitée par l'humanité au 21e
-siècle.</p>
-<br>
-<p class="texte">Cet objet, appelé "briquet", intriguait les chercheurs par sa simplicité et son mécanisme unique.</p>
-<br>
-<p class="texte">Grâce à des analyses minutieuses, ils ont compris que cet artefact servait autrefois à produire une petite flamme
-instantanée.</p>
-<p class="texte">Le briquet fonctionnait à l’aide d’un réservoir de liquide inflammable et d’un dispositif métallique permettant de créer
-une étincelle lorsqu'on le frottait.</p>
-<p class="texte">Cet outil, omniprésent à l'époque, a alors suscité l'intérêt de nombreux chercheurs pour retracer l’histoire de cet
-objet.</p>
-<img src="../assets/img/histoire du briquet.webp" alt="image du liens vers la page histoire" class="image" loading="lazy">
-<form action="chronologie.html" class="form">
-    <button type="submit" class="button">Plus d'infos</button>
-</form>
-</div>
-
+            <h3 class="soustitre">Retour Vers Le Futur Briquet</h3>
+            <p class="texte">Des archéologues ont découvert un objet mystérieux lors de fouilles sur une ancienne terre
+                habitée par l'humanité au 21e siècle.</p>
+            <p class="texte">Cet objet, appelé "briquet", intriguait les chercheurs par sa simplicité et son mécanisme
+                unique.</p>
+            <p class="texte">Grâce à des analyses minutieuses, ils ont compris que cet artefact servait autrefois à
+                produire une petite flamme instantanée.</p>
+            <p class="texte">Le briquet fonctionnait à l’aide d’un réservoir de liquide inflammable et d’un dispositif
+                métallique permettant de créer une étincelle lorsqu'on le frottait.</p>
+            <img src="../assets/img/histoire du briquet.webp" alt="Image représentant l'histoire du briquet"
+                class="image" loading="lazy">
+            <form action="chronologie.html" class="form">
+                <button type="submit" class="button">Plus d'infos</button>
+            </form>
+        </section>
     </main>
 
     <footer class="footer">
-    <div class="img_footer">
-    <img src="../assets/img/Fond avant footer.webp" alt="image de pieds de page" class="image_footer" loading="lazy">
-    </div>
-    <a href="index.html" class="footer_logo-link">
-        <img src="../assets/img/logo.webp" alt="image du logo du site" class="footer_logo" loading="lazy">
-    </a>
-
-    <h2 class="footer_titre">LEVIGNIS</h2>
-
-    <h3 class="footer_soustitre">Ressources</h3>
-
-    <p class="footer_texte"> Adresse 123 Rue de l'Innovation, 75000 Paris, France</p>
-    <p class="footer_texte">Téléphone +33 1 23 45 67 89 </p>
-    <p class="footer_texte">LEVIGNIS@ogglo-montbeliard.fr </p>
-    <p class="footer_texte">© 2025 LEVIGNIS</p>
-
-    <h3 class="footer_soustitre">NOUS SUIVRE</h3>
-
-    <img src="../assets/img/facebook 1.webp" alt="il s'agit du logo de Facebook" class="footer_social-logo" loading="lazy">
-    <img src="../assets/img/instagram 1.webp" alt="il s'agit du logo d'instagram" class="footer_social-logo" loading="lazy">
-    <img src="../assets/img/X (twitter).webp" alt="il s'agit du logo de X" class="footer_social-logo" loading="lazy">
-    <img src="../assets/img/youtube 1.webp" alt="il s'agit du logo de youtube" class="footer_social-logo" loading="lazy">
-    <img src="../assets/img/discord.webp" alt="il s'agit du logo de discord" class="footer_social-logo" loading="lazy">
-    <br>
-    <img src="../assets/img/logo mmi.webp" alt="il s'agit du logo du but MMI" class="footer_logoMMI" loading="lazy">
-    <p class="footer_texte">projet réalisé en 2024 dans le cadre d’un exercice pédagogique au
-    <a href="https://blogdummi.fr/" target="_blank" rel="noopener noreferrer">département MMi de Montbéliard</a>
-    </p>
-</footer>
-
-</body>
-
-</html>
+        <div class="img_footer">
+            <img src="../assets/img/Fond avant footer.webp" alt="image de pieds de page" class="image_footer"
+                loading="lazy">
+        </div>
+        <a href="index.html" class="footer_logo-link">
+            <img src="../assets/img/logo.webp" alt="image du logo du site" class="footer_logo" loading="lazy">
+        </a>
+    
+        <h2 class="footer_titre">LEVIGNIS</h2>
+    
+        <h3 class="footer_soustitre">Ressources</h3>
+    
+        <p class="footer_texte"> Adresse 123 Rue de l'Innovation, 75000 Paris, France</p>
+        <p class="footer_texte">Téléphone +33 1 23 45 67 89 </p>
+        <p class="footer_texte">LEVIGNIS@ogglo-montbeliard.fr </p>
+        <p class="footer_texte">© 2025 LEVIGNIS</p>
+    
+        <h3 class="footer_soustitre">NOUS SUIVRE</h3>
+    
+        <img src="../assets/img/facebook 1.webp" alt="il s'agit du logo de Facebook" class="footer_social-logo"
+            loading="lazy">
+        <img src="../assets/img/instagram 1.webp" alt="il s'agit du logo d'instagram" class="footer_social-logo"
+            loading="lazy">
+        <img src="../assets/img/X (twitter).webp" alt="il s'agit du logo de X" class="footer_social-logo" loading="lazy">
+        <img src="../assets/img/youtube 1.webp" alt="il s'agit du logo de youtube" class="footer_social-logo"
+            loading="lazy">
+        <img src="../assets/img/discord.webp" alt="il s'agit du logo de discord" class="footer_social-logo" loading="lazy">
+        <br>
+        <img src="../assets/img/logo mmi.webp" alt="il s'agit du logo du but MMI" class="footer_logoMMI" loading="lazy">
+        <p class="footer_texte">projet réalisé en 2024 dans le cadre d’un exercice pédagogique au
+            <a href="https://blogdummi.fr/" target="_blank" rel="noopener noreferrer">département MMi de Montbéliard</a>
+        </p>
+    </footer>
+    
+    </body>
+    
+    </html>
