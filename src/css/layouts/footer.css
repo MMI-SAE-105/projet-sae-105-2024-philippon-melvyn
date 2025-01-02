@@ -2,33 +2,46 @@
     background-color: #000;
     border-top: 2px solid #fff;
     color: white;
-    text-align: center;
     padding: 40px 20px;
 }
 
-.footer__logo {
-    width: 120px;
+.footer_logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.footer_logo {
+    width: 50px;
     height: auto;
-    margin-bottom: 20px;
 }
 
 .footer__title {
-    font-size: 35px;
     font-weight: bold;
-
+    text-align: left;
+    text-decoration: dashed;
+    letter-spacing: 0cap;
     text-transform: uppercase;
+    font-family: 'Georgia', serif;
 }
 
 .footer__subtitle {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 15px;
+        text-transform: uppercase;
+        font-family: 'Georgia', serif;
+        font-weight: 600;
+        letter-spacing: 0.5;
+        text-align: center;
 }
 
 .footer__text {
-    font-size: 16px;
-    margin-bottom: 20px;
-    line-height: 1.8;
+        font-family: 'Georgia', serif;
+        line-height: 1.2;
+        color: #ffffff;
+        text-align: left;
+        letter-spacing: 0.02em;
+        text-shadow: 1px 1px 2px rgba(211, 201, 201, 0.1);
 }
 
 .footer__logo-link {
@@ -36,12 +49,15 @@
     display: inline-block;
 }
 
-.footer__social-logo {
+.footer_social-logo {
     width: 40px;
-    height: auto;
-    margin: 0 10px;
-    transition: opacity 0.3s ease, transform 0.3s ease;
+    height: 40px;
+    object-fit: contain;
+    text-align: center;
+    display: inline-block; 
+    margin: 0 auto; 
 }
+
 
 .footer__social-logo:hover {
     opacity: 0.8;
@@ -62,22 +78,4 @@
 .footer__column {
     flex: 1 1 200px;
     min-width: 200px;
-}
-
-
-.footer__button {
-    padding: 10px 20px;
-    background-color: #fff;
-    color: #000;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.footer__button:hover {
-    background-color: #f0f0f0;
-    color: #000;
 }
