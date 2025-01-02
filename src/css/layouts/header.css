@@ -79,10 +79,12 @@
     object-fit: cover;
     position: absolute;
     left: 0;
+    right: 0;
     display: block;
     width: 100%;
     height: auto;
     margin: 0;
+    padding: 0;
 }
 
 

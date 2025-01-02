@@ -1,0 +1,9 @@
+
+
+.synopsis_film {
+    background: radial-gradient(circle, #F8783D, #FCB92A);
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    margin: 20px 0;
+}
