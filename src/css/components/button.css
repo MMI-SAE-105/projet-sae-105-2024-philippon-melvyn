@@ -34,3 +34,20 @@
     background-color: red;
 }
 
+.button_film {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: background-color 0.1s ease;
+    margin-left: 250px;
+}
+
+.button:hover {
+    background-color: red;
+}
