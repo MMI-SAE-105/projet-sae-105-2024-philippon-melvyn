@@ -14,3 +14,23 @@
 .button:hover {
     background-color: red;
 }
+
+
+.button_blanc {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 8px 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: background-color 0.1s ease;
+    margin-left: 135px;
+}
+
+.button_blanc:hover {
+    background-color: red;
+}
+

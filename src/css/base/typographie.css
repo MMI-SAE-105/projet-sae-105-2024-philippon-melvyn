@@ -6,6 +6,8 @@
     letter-spacing:0cap;
     text-transform:uppercase;
     font-family: 'Georgia', serif;
+    margin-left: 5px;
+
 }
 
 .soustitre{
@@ -14,15 +16,33 @@
     font-family: 'Georgia', serif;
     font-weight: 600;
     letter-spacing: 0.5;
+    margin-left: 5px;
 }
 
-
 .texte{
-    
     font-family: 'Georgia', serif;
     line-height: 1.2;
     color: #413f3f;
-    text-align: justify;
-    letter-spacing: 0.02em;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    letter-spacing: 0em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.texte_blanc {
+    font-family: 'Georgia', serif;
+    line-height: 1.2;
+    color: #ffffff;
+    letter-spacing: 0em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.soustitre_blanc {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Georgia', serif;
+    font-weight: 600;
+    letter-spacing: 0.5;
+    margin-left: 5px;
+    margin-top: -2px;
 }

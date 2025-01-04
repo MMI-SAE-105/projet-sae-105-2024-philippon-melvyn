@@ -5,13 +5,11 @@
     position: relative;
     overflow: hidden;
     width: 100%;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
     box-sizing: border-box;
 }
 
-
-footer img {
+.image_footer{
     width: 100%;
     height: auto;
     display: block;
@@ -25,12 +23,7 @@ footer img {
     width: 100%;
 }
 
-.footer_logo {
-    width: 50px;
-    height: auto;
-}
-
-.footer__title {
+.footer_title {
     font-weight: bold;
     text-align: left;
     text-decoration: dashed;
@@ -39,62 +32,54 @@ footer img {
     font-family: 'Georgia', serif;
 }
 
-.footer__subtitle {
+.footer_subtitle {
         text-transform: uppercase;
         font-family: 'Georgia', serif;
-        font-weight: 600;
+        font-weight: 900;
         letter-spacing: 0.5;
-        text-align: center;
+        text-align: left;
+        padding: 15px 7px;
 }
 
-.footer__text {
+.footer_text {
         font-family: 'Georgia', serif;
         line-height: 1.2;
         color: #ffffff;
         text-align: left;
         letter-spacing: 0.02em;
         text-shadow: 1px 1px 2px rgba(211, 201, 201, 0.1);
+        padding: 5px 25px;
 }
 
-.footer__logo-link {
-    margin-left: -250px;
-    display: inline-block;
+.logo_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer_social-logo {
+    margin: 0 15px;
     width: 40px;
     height: 40px;
     object-fit: contain;
     text-align: center;
-    display: inline-block; 
-    margin: 0 auto; 
+    display: inline-block;  
 }
 
-
-.footer__social-logo:hover {
+.footer_social-logo:hover {
     opacity: 0.8;
     transform: scale(1.1);
     cursor: pointer;
 }
 
-.footer__content {
+.footer_logoMMI-container{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: left;
-    gap: 40px;
+    align-items: center;
+    justify-content: center;
     margin-top: 20px;
 }
 
-
-.footer__column {
-    flex: 1 1 200px;
-    min-width: 200px;
-}
-
-
 .footer_logoMMI {
-    width: 100%;
-    height: auto;
-    display: block;
+    width: 100px;
+    height: 80px;
 }
