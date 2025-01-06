@@ -1,0 +1,95 @@
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    /* Ajoute un peu de marge intérieure */
+    color: white;
+    /* Texte blanc */
+    text-align: center;
+    /* Centre le contenu textuel */
+}
+
+/* Image dans chaque diapositive */
+.image_galerie {
+    width: 100%;
+    /* Image pleine largeur */
+    height: auto;
+    /* Conserve les proportions */
+    margin-bottom: 15px;
+    /* Espacement entre l'image et le texte */
+    border-radius: 8px;
+    /* Ajoute un léger arrondi aux images */
+}
+
+/* Styles pour les boutons de navigation */
+.carousel-buttons {
+    position: absolute;
+    /* Positionne les boutons par rapport au carrousel */
+    top: 50%;
+    /* Centre verticalement les boutons */
+    width: 100%;
+    /* S'étend sur toute la largeur */
+    display: flex;
+    /* Les boutons sont alignés horizontalement */
+    justify-content: space-between;
+    /* Boutons à gauche et à droite */
+    transform: translateY(-50%);
+    /* Centre précis des boutons verticalement */
+    pointer-events: none;
+    /* Empêche d'interférer avec le contenu en dessous */
+}
+
+.carousel-button {
+    pointer-events: auto;
+    /* Active l'interaction avec les boutons */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fond semi-transparent */
+    border: none;
+    /* Supprime les bordures */
+    color: white;
+    /* Couleur du texte sur les boutons */
+    font-size: 2rem;
+    /* Taille du texte des flèches */
+    cursor: pointer;
+    /* Curseur interactif */
+    padding: 10px 15px;
+    /* Espacement interne */
+    border-radius: 50%;
+    /* Forme circulaire pour les boutons */
+    transition: background-color 0.3s ease;
+    /* Animation pour le survol */
+}
+
+.carousel-button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Change la couleur au survol */
+    color: black;
+    /* Change la couleur du texte */
+}
+
+/* Bouton précédent */
+.carousel-button.prev {
+    position: absolute;
+    left: 10px;
+    /* Positionne le bouton à gauche */
+}
+
+.carousel-button.next {
+    position: absolute;
+    right: 10px;
+    
+}

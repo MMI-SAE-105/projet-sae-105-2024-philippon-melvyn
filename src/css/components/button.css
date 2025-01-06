@@ -19,7 +19,7 @@
 .button_blanc {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    border: none;
+    border:none;
     padding: 8px 25px;
     text-transform: uppercase;
     text-align: center;
@@ -27,7 +27,9 @@
     cursor: pointer;
     border-radius: 7px;
     transition: background-color 0.1s ease;
-    margin-left: 135px;
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-bottom: 20%;
 }
 
 .button_blanc:hover {
@@ -45,7 +47,7 @@
     cursor: pointer;
     border-radius: 7px;
     transition: background-color 0.1s ease;
-    margin-left: 250px;
+    margin-left: 30%;
 }
 
 .button:hover {
