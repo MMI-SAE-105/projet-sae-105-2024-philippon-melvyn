@@ -1,5 +1,15 @@
 .image_auteur {
 
     width: 100%;
+   
+}
 
+.p1_auteur {
+ background-color: rgb(47, 45, 45);
+ margin-bottom: 3%;
+}
+
+.p2_auteur {
+ background-color: rgb(47, 45, 45);
+ margin-top: 1%;
 }

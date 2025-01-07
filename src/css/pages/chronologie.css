@@ -1,56 +1,14 @@
-section.section1 {
-    background: linear-gradient(to bottom, #ffffe0, #ffeb99);
-    padding: 20px;
-    margin: 10px 0;
-    border-radius: 5px;
-}
-
-section.section2 {
-    background: linear-gradient(to bottom, #ffeb99, #ffd966);
-    padding: 20px;
-    margin: 10px 0;
-    border-radius: 5px;
-}
-
-section.section3 {
-    background: linear-gradient(to bottom, #ffd966, #ffcc33);
-    padding: 20px;
-    margin: 10px 0;
-    border-radius: 5px;
-}
-
-section.section4 {
-    background: linear-gradient(to bottom, #ffcc33, #ffb300);
-    padding: 20px;
-    margin: 10px 0;
-    border-radius: 5px;
-}
-
-section.section5 {
-    background: linear-gradient(to bottom, #ffb300, #ff9900);
-    padding: 20px;
-    margin: 10px 0;
-    border-radius: 5px;
-}
-
-section.section6 {
-    background: linear-gradient(to bottom, #ff9900, #ff6600);
-    padding: 20px;
-    margin: 10px 0;
-    border-radius: 5px;
-}
-
-section.section7 {
-    background: linear-gradient(to bottom, #ff6600, #ff3300);
-    padding: 20px;
-    margin: 10px 0;
-    border-radius: 5px;
-}
-
+section.section1,
+section.section2,
+section.section3,
+section.section4,
+section.section5,
+section.section6,
+section.section7,
 section.section8 {
-    background: linear-gradient(to bottom, #ff3300, #ff0000);
-    padding: 20px;
-    margin: 10px 0;
-    border-radius: 5px;
+    background-color: rgb(47, 45, 45);
+    padding: 5px;
+    margin: 20px 0;
+    border-radius: 2px;
 }
 

@@ -1,0 +1,19 @@
+.vid_chanson {
+    width: 100%;
+    height: auto;
+    margin-bottom: -3%;
+}
+
+.image_chanson {
+    width: 100%;
+    height: auto;
+}
+
+.p1_chanson {
+  background-color: rgb(47, 45, 45);
+}
+
+.p2_chanson {
+  background-color: #AE1F25;
+  margin-top: 5%;
+}

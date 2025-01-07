@@ -59,9 +59,8 @@
     color: rgb(52, 47, 47);
     font-size: 35px;
     cursor: pointer;
-    margin-left: -60%;
-    margin-top: -1px;
-    width: 40px;
+    margin-left: -100%;
+    
     
 }
 
@@ -117,4 +116,16 @@
     text-transform: uppercase;
     font-family: 'Georgia', serif;
     padding: 55px;
+}
+
+.header_logofr {
+    margin-left: -25%;
+    width: 70%;
+    margin-top: 7%;
+}
+
+.header_logoen {
+    margin-left: -25%;
+    width: 70%;
+    margin-top: 7%;
 }
