@@ -1,53 +1,3 @@
-/* Styles généraux */
-body {
-    font-family: 'Arial', sans-serif;
-    color: #FFFFFF;
-    background: linear-gradient(180deg, #000000, #8B0000);
-    /* Dégradé noir vers rouge foncé */
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-}
-
-/* Conteneur principal */
-.main-content {
-    padding: 40px;
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.8);
-    /* Fond noir semi-transparent */
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
-}
-
-/* Titres */
-.title {
-    font-size: 2.5rem;
-    text-align: center;
-    color: #FFA500;
-    /* Orange vif */
-    margin-bottom: 20px;
-}
-
-.soustitre {
-    font-size: 1.8rem;
-    color: #FFD700;
-    /* Jaune or */
-    margin-top: 30px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    border-bottom: 2px solid #FFA500;
-    /* Ligne orange */
-    display: inline-block;
-}
-
-.texte {
-    font-size: 1rem;
-    color: #FFFFFF;
-    margin-bottom: 15px;
-    text-align: justify;
-}
-
 .formulaire_form {
     display: flex;
     flex-direction: column;
@@ -89,7 +39,7 @@ body {
 
 .form_button:hover {
     transform: scale(1.05);
-    box-shadow: 0 4px 10px rgba(255, 69, 0, 0.6);
+    box-shadow: 0 4px 10px rgba(228, 4, 4, 0.6);
 }
 
 .comment-section {
@@ -105,18 +55,6 @@ body {
 }
 
 .main-content_contact-info p {
-    margin-bottom: 10px;
-}
-
-.main-content_contact-info p:nth-child(1) {
-    color: #FF4500;
-    /* Rouge vif */
-    font-weight: bold;
-}
-
-.main-content_contact-info p:nth-child(2),
-.main-content_contact-info p:nth-child(3) {
-    font-size: 0.9rem;
-    color: #FFFFFF;
+    margin-bottom: 5%;
 }
 

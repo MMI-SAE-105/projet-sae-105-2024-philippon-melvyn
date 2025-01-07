@@ -1,7 +1,7 @@
 .carousel {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgb(74, 69, 69),rgb(0, 0, 0));
+    background: linear-gradient(rgb(0, 0, 0),#AE1F25);
 }
 
 .carousel-container {
@@ -30,8 +30,8 @@
 .image_galerie {
     width: 100%;
     height: auto;
-    border-radius: 6px;
-    
+    border-radius: 3px;  
+    justify-content: center;
 }
 
 .carousel-buttons {
@@ -75,3 +75,4 @@
 .vid {
     width: 100%;
 }
+

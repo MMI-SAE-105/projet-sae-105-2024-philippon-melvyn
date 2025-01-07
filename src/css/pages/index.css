@@ -1,43 +1,26 @@
 .p1_accueil {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.image_decale {
-    display: flex;
-    flex-direction:row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px;
+background-color:rgb(47, 45, 45);
+border-radius: 3px;
 }
 
 .image_briquet {
     max-width: 50%;
     height: auto;
     object-fit: contain;
-}
-
-
-.texte_briquet {
-    font-family: 'Georgia', serif;
-    line-height: 2;
-    color: #413f3f;
-    letter-spacing: 0em;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 25%;
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 
 .p2_accueil{
-background: linear-gradient(to bottom, rgb(47, 45, 45), #000000);
+background-color:rgb(47, 45, 45);
 }
     
 .image_cadre {
     max-width: 100%;    
     height: auto;
-    border-bottom: 4px solid rgb(235, 224, 224);
-    border-top: 4px solid rgb(235, 224, 224);
-    display: block;
-         
+    border-bottom: 4px solid rgb(0, 0, 0);
+    border-top: 4px solid rgb(0, 0, 0);
+    display: block;        
 }
 

@@ -29,6 +29,7 @@
     transform: translateX(5px);
 }
 
+.button_film,
 .button_blanc {
     background-color: #000000;
     color: rgb(255, 255, 255);
@@ -40,11 +41,12 @@
     cursor: pointer;
     border-radius: 3px;
     transition: background-color 0.4s ease;
-    margin-left: 30%;
+    margin-left: 17%;
     margin-top: 10%;
-    margin-bottom: 20%;
+    margin-bottom: 16%;
 }
 
+.button_film::after,
 .button_blanc::after {
     content: '→';
     font-size: 1.2rem;
@@ -53,49 +55,18 @@
     transition: transform 0.2s ease;
 }
 
+.button_film:hover,
 .button_blanc:hover {
     background-color: #ffffff;
     color: #000000;
     border-color: #000000;
 }
 
+.button_film:hover::after,
 .button_blanc:hover::after {
     transform: translateX(5px);
 }
-
-
-.button_film {
-    background-color: #000000;
-    color: white;
-    border: 2px solid #ffffff;
-    padding: 8px 25px;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 3px;
-    transition: background-color 0.4s ease;
-    margin-left: 24%;
-}
-
-.button_film::after {
-    content: '→';
-    font-size: 1.2rem;
-    margin-left: 15px;
-    display: inline-block;
-    transition: transform 0.2s ease;
-}
-
-.button_film:hover {
-    background-color: #ffffff;
-    color: #000000;
-    border-color: #000000;
-}
-
-.button_film:hover::after {
-    transform: translateX(5px);
-}
-
+    
 .button_galerie {
     background-color: #000000;
     color: rgb(255, 255, 255);
@@ -125,5 +96,39 @@
 }
 
 .button_galerie:hover::after {
+    transform: translateX(5px);
+}
+
+.button_blanc-en {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+    padding: 8px 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.4s ease;
+    margin-left: 21%;
+    margin-top: 10%;
+    margin-bottom: 16%;
+}
+
+.button_blanc-en::after {
+    content: '→';
+    font-size: 1.2rem;
+    margin-left: 15px;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.button_blanc-en:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #000000;
+}
+
+.button_blanc-en:hover::after {
     transform: translateX(5px);
 }

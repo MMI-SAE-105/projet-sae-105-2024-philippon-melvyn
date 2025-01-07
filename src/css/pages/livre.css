@@ -1,29 +1,24 @@
 .image_livre {
-    width: 100%;
+    width: 90%;
+    margin-left: 4.3%;
+    margin-top: 5%;
 }
 
 .synopsis{
-    background:linear-gradient(to bottom, rgb(50, 30, 30), #2c1d1d);
-}
-
-.p2_livre {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: black;
+background-color: #AE1F25;
+margin-top: 1%;
 }
 
 .image_autrice {
-    width: 50%;
-    height: 620px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
-.text-container {
-    width: 40%;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
+.intro {
+background-color: rgb(47, 45, 45);
+}
+
+.p2_livre {
+background-color: rgb(47, 45, 45);
 }
