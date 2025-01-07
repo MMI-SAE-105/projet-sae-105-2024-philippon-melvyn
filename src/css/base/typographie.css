@@ -1,7 +1,6 @@
 .title{
     color: rgb(0, 0, 0);
     font-weight: bold;
-    text-align: left;
     text-decoration: dashed;
     letter-spacing:0cap;
     text-transform:uppercase;
@@ -53,4 +52,20 @@
     margin-left: 5px;
     margin-top: 18%;
 
+}
+
+.texte_blanc-carousel {
+    font-family: 'Georgia', serif;
+    line-height: 1;
+    color: #ffffff;
+    letter-spacing: 0em;
+    font-size: 0.8rem;
+}
+
+.soustitre_blanc-carousel {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Georgia', serif;
+    font-weight: 600;
+    letter-spacing: 0rem;
 }
