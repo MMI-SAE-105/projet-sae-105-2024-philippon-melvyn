@@ -87,5 +87,17 @@
     letter-spacing: 0rem;
 }
 
+.legende {
+    line-height: 0.4;
+    color: #bbb6b6;
+    letter-spacing: 0em;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    font-size: 0.7rem;
+    margin-top: 0.1%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
  
 
