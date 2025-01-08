@@ -12,3 +12,44 @@ section.section8 {
     border-radius: 2px;
 }
 
+.main-content {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.p1_chronologie {
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.line {
+    width: 13%;
+    height: 25px;
+    background: linear-gradient(rgb(0, 0, 0),#AE1F25);
+}
+
+.line_final {
+    width: 13%;
+    height: 70px;
+    background: linear-gradient(rgb(0, 0, 0), #AE1F25);
+}
+
+.arrow-down {
+    width: 1%;
+    height: 0.5%;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 80px solid #AE1F25;
+    margin-bottom: 10%;
+}
